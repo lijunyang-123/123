@@ -12,7 +12,9 @@ namespace 仓库.Controllers
         {
             return View();
         }
-
+        public ActionResult in1(){
+            return View();
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
